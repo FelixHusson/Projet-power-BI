@@ -1,0 +1,90 @@
+# ============================
+# PYTHON
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# Environnements virtuels
+env/
+venv/
+.venv/
+ENV/
+*.env
+
+# Packages installés
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# ============================
+# NOTEBOOKS
+# ============================
+.ipynb_checkpoints/
+
+# ============================
+# POWER BI
+# ============================
+*.pbix
+*.pbit
+*.pbix.tmp
+
+# ============================
+# LOGS & TEMP
+# ============================
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.DS_Store
+
+# ============================
+# DOCKER
+# ============================
+docker/*.log
+docker/*.tmp
+docker/.dockerignore
+
+# ============================
+# IDE / ÉDITEURS
+# ============================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# ============================
+# SYSTEM
+# ============================
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ============================
+# FICHIERS À NE PAS VERSIONNER
+# ============================
+
+# Secrets / Keys
+*.key
+*.pem
+*.crt
+
+# Données sensibles (au cas où)
+data/raw/
+data/tmp/
+*.csv
+*.xlsx
+
+# ============================
+# VENV DOCKER
+# ============================
+**/__pycache__/
